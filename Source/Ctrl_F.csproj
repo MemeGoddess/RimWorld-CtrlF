@@ -18,12 +18,6 @@
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="TD_Find_Lib">
-      <HintPath>..\..\TDFindLib-Github\1.6\Assemblies\TD_Find_Lib.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
     <PackageReference Include="Krafs.Publicizer" Version="2.1.0">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
@@ -33,6 +27,11 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="TD_Find_Lib">
+      <HintPath>..\Workshop\steamapps\workshop\content\294100\3529443295\1.6\Assemblies\TD_Find_Lib.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <PropertyGroup>
     <StartAction>Program</StartAction>

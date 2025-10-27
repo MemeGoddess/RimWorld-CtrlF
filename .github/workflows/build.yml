@@ -26,12 +26,6 @@ jobs:
         with: 
           path: 'mod'
 
-      - name: Remove old binary
-        working-directory: mod/1.6/Assemblies/
-        run: |
-            rm -f {FILE}.dll
-            rm -f {FILE}.pdb
-
       - name: Build with dotnet build
         working-directory: mod
         run: dotnet build "Source/Ctrl_F.csproj" --configuration Release
