@@ -8,8 +8,21 @@ namespace Ctrl_F
 {
 	public class Mod : Verse.Mod
 	{
+		public static Settings Settings;
 		public Mod(ModContentPack content) : base(content)
 		{
+			Settings = GetSettings<Settings>();
+		}
+
+		public override string SettingsCategory()
+		{
+			return "TD.CtrlF".Translate();
+		}
+
+		public override void DoSettingsWindowContents(Rect inRect)
+		{
+			base.DoSettingsWindowContents(inRect);
+			Settings.DoWindowContents(inRect);
 		}
 	}
 

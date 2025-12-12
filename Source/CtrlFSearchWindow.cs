@@ -123,6 +123,8 @@ namespace Ctrl_F
 		{
 			Toggle();
 		}
+
+		public override bool Visible => Mod.Settings.ShowButton;
 	}
 
 	public class CtrlFListWindow : Window

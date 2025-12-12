@@ -7,5 +7,6 @@
 	<TD.DoesNotRefreshWhenPaused>(Does not refresh when paused)</TD.DoesNotRefreshWhenPaused>
 	<TD.ToggleToKeepThisWindowOpen>Toggle to keep this window open when the search window is closed\n\nRight-click to re-open Search window</TD.ToggleToKeepThisWindowOpen>
 	<TD.ViewInCtrlF>View in Ctrl-F</TD.ViewInCtrlF>
+	<TD.ShowSearchButton>Show search button on bar</TD.ShowSearchButton>
 	
 </LanguageData>
